@@ -1,0 +1,23 @@
+.block {
+    background-color: rgb(115, 168, 199, 1);
+    text-align: center;
+    width: fit-content;
+    margin-left: 645px;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+img{
+    margin-left: 668px;
+    width: 300px;   
+    height: 300px;
+    border-radius: 30px;
+}
+
+.ine{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(112, 161, 152, 1);
+    border:aqua groove 3px ;
+}
