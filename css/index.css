@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
-/* GENERAL */
+
 
 * {
     margin: 0;
@@ -180,7 +180,7 @@ header {
     border-color: #b18aff;
 }
 
-/* NUMBERS */
+
 
 .numbers {
     display: flex;
@@ -202,7 +202,7 @@ header {
     margin-top: 7px;
 }
 
-/* CODE VISUAL */
+
 
 .visual-area {
     width: 490px;

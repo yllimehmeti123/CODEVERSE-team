@@ -4,10 +4,12 @@ function welcome() {
 }
 
 function exploreCourse(courseName) {
-    alert("Welcome to " + courseName + "! Start your coding journey today.");
+    alert(
+        "Welcome to " + courseName +
+        "! Start your coding journey today."
+    );
 }
 
 function showMessage() {
     alert("Thank you for being part of CODEVERSE!");
 }
-
