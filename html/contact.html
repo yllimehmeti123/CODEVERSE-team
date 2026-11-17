@@ -9,22 +9,78 @@
     <title>Contact us</title>
 </head>
 <body>
-    <nav>
-        <img src="" style="width: 60px; height: 60px;">
+<section class="contact-section">
 
-        <div id="myLinks">
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+    <div class="contact-container">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-info">
+
+            <h1>Contact <span>Us.</span></h1>
+
+            <p>
+                Have a question, idea or project in mind?
+                We'd love to hear from you.
+                Send us a message and let's create something amazing together.
+            </p>
+
+            <div class="contact-detail">
+                <strong>Email</strong>
+                info@yourwebsite.com
+            </div>
+
+            <div class="contact-detail">
+                <strong>Phone</strong>
+                +383 44 123 456
+            </div>
+
+            <div class="contact-detail">
+                <strong>Location</strong>
+                Prishtina, Kosovo
+            </div>
+
         </div>
 
-        <button class="icon" onclick="openMenu()">
-            <i class="fa fa-bars"></i>
-        </button>
-    </nav>
 
-    
+        <!-- RIGHT SIDE - FORM -->
+        <form class="contact-form" action="#" method="POST">
 
-    <script src="C:\Users\Student\Desktop\CODEVERSE-team\js\contact.js"></script>
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required
+            >
+
+            <textarea
+                name="message"
+                placeholder="Write your message here..."
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+<script src="C:\Users\Student\Desktop\CODEVERSE-team\js\contact.js"></script>
 </body>
 </html>
