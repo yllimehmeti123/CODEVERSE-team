@@ -4,7 +4,23 @@
     width: fit-content;
     margin-left: 645px;
     margin-top: 100px;
-    padding: 30px;
+
+    background: linear-gradient(
+        135deg,
+        rgba(119, 60, 255, 0.25),
+        rgba(227, 59, 201, 0.20)
+    );
+
+    border: 1px solid rgba(168, 85, 247, 0.4);
+    border-radius: 20px;
+
+    padding: 40px;
+
+    backdrop-filter: blur(20px);
+
+    box-shadow:
+        0 0 30px rgba(119, 60, 255, 0.2),
+        0 0 60px rgba(227, 59, 201, 0.1);
 }
 
 img{
@@ -14,10 +30,75 @@ img{
     border-radius: 30px;
 }
 
-.ine{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    background-color: rgb(112, 161, 152, 1);
-    border:aqua groove 3px ;
+
+.ine {
+    padding: 17px 40px;
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        90deg,
+        #773cff,
+        #e33bc9
+    );
+
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 0 25px rgba(160, 50, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.ine:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 35px rgba(160, 50, 255, 0.6);
+}
+
+.ine:active {
+    transform: scale(0.96);
+}
+
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background:
+        radial-gradient(
+            circle at 35% 45%,
+            rgba(30, 50, 255, 0.45) 0%,
+            transparent 45%
+        ),
+        radial-gradient(
+            circle at 75% 60%,
+            rgba(150, 30, 255, 0.30) 0%,
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 50% 100%,
+            rgba(0, 100, 255, 0.15),
+            transparent 50%
+        ),
+        #080812;
+
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Neon blue glow */
+body::before {
+    content: "";
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    top: 20%;
+    left: 20%;
+    background: #2925ff;
+    filter: blur(180px);
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: -1;
 }
