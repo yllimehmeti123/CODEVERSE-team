@@ -1,34 +1,49 @@
-nav{
-    overflow: hidden;
-    background-color: #06206a;
+header {
+    background: #0c0a1b;
+    border-bottom: 1px solid #24203c;
+    padding: 22px 7%;
     position: relative;
-    max-width: 400px;
+    z-index: 10;
 }
 
-nav #myLinks{
-    display: none;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav a,button{
-    color: white;
-    padding: 14px 16px;
+.logo {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-links a {
     text-decoration: none;
-    font-size: 17px;
-    display:block;
+    color: #c5c0d8;
+    transition: 0.3s;
 }
 
-nav button.icon{
-    background: #06206a;
-    display: block;
-    position: absolute;
-    margin-top: 10px;
-    right: 10px;
-    top: 0;
+.nav-links a:hover {
+    color: #b58aff;
 }
 
-nav a:hover{
-    background-color: #ddd;
-    color:black; 
+.nav-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #7445db, #a34ce9);
+    padding: 12px 20px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px #a875ff55;
 }
 
 
